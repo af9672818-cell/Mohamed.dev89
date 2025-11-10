@@ -1,0 +1,119 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(135deg, #0066ff, #00c3ff);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header span {
+  color: #ffeb3b;
+}
+
+.add-btn {
+  background: white;
+  color: #0066ff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.add-btn:hover {
+  background: #ffeb3b;
+  color: #222;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.post {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.post:hover {
+  transform: scale(1.01);
+}
+
+.post h2 {
+  color: #0066ff;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+footer {
+  text-align: center;
+  background: #0066ff;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+form button {
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+form button:hover {
+  background: #004ccc;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066ff;
+  text-decoration: none;
+}
+.back:hover {
+  text-decoration: underline;
+}
